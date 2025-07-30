@@ -31,12 +31,39 @@
 ---
 
 ## 📂 Folder Structure
+├── src/
+│ ├── assets/
+│ ├── Auth/
+│ │ └── SignUp.jsx
+│ ├── components/
+│ │ └── FoodDisplay/
+│ │ ├── DisplayFood.jsx
+│ │ ├── FoodCards.jsx
+│ │ ├── AppLayout.jsx
+│ │ ├── CartItems.jsx
+│ │ ├── Counter.jsx
+│ │ ├── DownloadApp.jsx
+│ │ ├── ErrorPage.jsx
+│ │ ├── MenuCards.jsx
+│ │ └── NavBar.jsx
+│ ├── context/
+│ │ └── StoreContext.jsx
+│ ├── pages/
+│ │ ├── Cart.jsx
+│ │ ├── Contact.jsx
+│ │ ├── Home.jsx
+│ │ ├── Menu.jsx
+│ │ ├── MobileApp.jsx
+│ │ └── Order.jsx
+│ └── UI/
+│ ├── Footers.jsx
+│ ├── Headers.jsx
+│ └── HeroSection.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ ├── main.jsx
+├── .gitignore
 
-```bash
-src/
-├── assets/          # Images, icons, and static files
-├── components/      # Reusable UI components
-├── pages/           # Route-level components
-├── App.jsx          # Main App component
-├── main.jsx         # React DOM rendering
-└── index.css        # Global styles
+
+
