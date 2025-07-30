@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-xs: 360px;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+    --color-primary: #9929EA;
+    --color-bgColor: #f4e8ff;
+    --color-bdColor: #bdbbbb;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #9929EA;
+    --background-color: #f4e8ff;
+}
+
+.container {
+    max-width: 130rem;
+    margin: auto;
+}
+
+/* .navContainer {
+    box-shadow: rgba(130, 130, 148, 0.25) 0px 13px 27px -5px, rgba(84, 82, 82, 0.3) 0px 8px 16px -8px;
+} */
+
+.HeroImage {
+    background-image: url('./assets/gptwebp.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroPara {
+    font-weight: 700;
+}
+
+.foodCards {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: linear-gradient(to right, #ffe8f2, #e1e2ff, #f7ddea);
+}
+
+.foodCards:hover {
+    box-shadow: rgba(172, 78, 239, 0.308) 0px 15px 25px, rgba(208, 110, 232, 0.05) 0px 5px 10px;
+    transition-duration: 380ms;
+    transition-timing-function: ease-in-out;
+}
+
+.menuCards::-webkit-scrollbar {
+    height: 1rem;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+.menuCards::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #3b82f6, #6366f1, #db2777);
+    border-radius: 1rem;
+}
+
+.foodCardsMain::-webkit-scrollbar {
+    height: 1rem;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+.foodCardsMain::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #3b82f6, #6366f1, #db2777);
+    border-radius: 1rem;
+}
+
+.foodCardsMain::-webkit-scrollbar-thumb:hover {
+    background-color: aqua;
+}
+
+/* .menuCards::-webkit-scrollbar-thumb {
+    color: #9929EA;
+} */
+
+.group {
+    position: relative;
+}
+
+.contactPageBackground {
+    background-image: url(/public/images/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.appDownload img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width:47.9rem) {
+    .foodCardsMain::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menuCards::-webkit-scrollbar{
+        display: none;
+    }
+    
+}
+
