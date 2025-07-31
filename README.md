@@ -29,7 +29,15 @@
 - **Netlify / Vercel** (for deployment)
 
 
+--ScreenShots
 
-<img width="1617" height="725" alt="Screenshot 2025-07-31 094530" src="https://github.com/user-attachments/assets/b7ba6e72-593a-43e3-bb36-91d43e3490f4" />
+<img width="1580" height="738" alt="Screenshot 2025-07-31 094844" src="https://github.com/user-attachments/assets/bda1d2e8-fc0e-458f-ac75-60591857a672" />
+
+<img width="1511" height="808" alt="Screenshot 2025-07-31 094554" src="https://github.com/user-attachments/assets/0ade441c-a64f-4285-b040-a794c1f7dee0" />
+
+<img width="1519" height="901" alt="Screenshot 2025-07-31 094645" src="https://github.com/user-attachments/assets/f47791d3-d823-44d3-b006-ede01e32650b" />
+
+
+
 
 
