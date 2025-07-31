@@ -29,7 +29,7 @@
 - **Netlify / Vercel** (for deployment)
 
 
---ScreenShots
+📸 Screenshots
 
 <img width="1580" height="738" alt="Screenshot 2025-07-31 094844" src="https://github.com/user-attachments/assets/bda1d2e8-fc0e-458f-ac75-60591857a672" />
 
